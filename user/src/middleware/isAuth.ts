@@ -13,6 +13,8 @@ export const isAuth = async (
 ): Promise<void> => {
   try {
     const authHeader = req.headers.authorization;
+    console.log("Auth Header Received:", req.headers.authorization);
+
 
     if (!authHeader || !authHeader.startsWith("Bearer ")) {
       res.status(401).json({
