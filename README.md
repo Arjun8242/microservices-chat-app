@@ -14,6 +14,7 @@
 </div>
 
 This is a full-stack chat application built with a microservices architecture for the backend and Next.js for the frontend. It features real-time chat, user authentication, email verification, and file sharing capabilities.
+[I have attached screenshots in the public folder, not able to deploy on AWS because credit card declined ;) ......]
 
 ## Features ✨
 
